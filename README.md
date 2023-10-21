@@ -1,5 +1,6 @@
 # zephyr_fusb302b
-WIP Zephyr driver for the FUSB302B
+WIP Zephyr driver for the FUSB302B.
+Some background is shared in my [post about writing an emulator for this device](https://jonasotto.com/posts/zephyr_emulators/).
 
 ## Using
 This is a west module. To use it, add the following to your west manifest:
