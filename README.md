@@ -28,7 +28,7 @@ Instantiate the FUSB302B in your devicetree(-overlay), and assign it to a USB-C 
 };
 
 / {
- fvbus: fusb302b-vbus {
+    fvbus: fusb302b-vbus {
         compatible = "fcs,fusb302b-vbus";
         fusb302b = <&fusb>;
     };
