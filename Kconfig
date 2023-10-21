@@ -1,0 +1,2 @@
+rsource "drivers/usb_c/tcpc/Kconfig"
+rsource "drivers/usb_c/vbus/Kconfig"

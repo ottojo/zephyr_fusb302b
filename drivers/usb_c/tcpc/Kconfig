@@ -1,0 +1,5 @@
+if USBC_TCPC_DRIVER
+
+rsource "Kconfig.tcpc_fusb302b"
+
+endif # USBC_TCPC_DRIVER

@@ -1,0 +1,4 @@
+zephyr_library_amend()
+
+zephyr_library_sources_ifdef(CONFIG_USBC_VBUS_FUSB302B fusb_vbus.c)
+zephyr_library_sources_ifdef(CONFIG_EMUL_VBUS_FUSB302B emul_vbus_fusb302b.c)

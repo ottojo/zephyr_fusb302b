@@ -1,0 +1,5 @@
+if USBC_VBUS_DRIVER
+
+rsource "Kconfig.usbc_vbus_fusb302b"
+
+endif # USBC_VBUS_DRIVER
