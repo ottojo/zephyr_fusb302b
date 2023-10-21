@@ -1,2 +1,3 @@
 add_subdirectory_ifdef(CONFIG_USBC_TCPC_DRIVER drivers/usb_c/tcpc)
 add_subdirectory_ifdef(CONFIG_USBC_VBUS_DRIVER drivers/usb_c/vbus)
+zephyr_include_directories(include)
