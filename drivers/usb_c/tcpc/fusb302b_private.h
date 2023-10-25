@@ -19,6 +19,7 @@ struct alert_info {
 
 struct fusb302b_data {
 	struct alert_info alert_info;
+	int cc;
 };
 
 struct fusb302b_cfg {
